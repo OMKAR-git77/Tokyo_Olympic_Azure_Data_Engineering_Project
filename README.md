@@ -7,7 +7,9 @@ The main goal of this project is to learn how to use different Azure tools to bu
 Architecture Image
 ![Architecture Image](https://github.com/user-attachments/assets/e590bf47-2d41-45cb-afee-88484c7c0ab3)
 
-Pipeline Image![ADF_Pipeline](https://github.com/user-attachments/assets/0d1ce73b-079f-4b5f-83e4-eed9a278b5c6)
+Pipeline Image![ADF_Pipeline](https://github.com/user-attachments/assets/00f2b94f-1f59-4cb3-bded-0cc7e510f642)
+
+
 
 - Workflow  
   - Data Extraction  
