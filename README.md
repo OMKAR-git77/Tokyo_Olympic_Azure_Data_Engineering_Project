@@ -9,5 +9,24 @@ Architecture Image
 
 Pipeline Image![ADF_Pipeline](https://github.com/user-attachments/assets/0d1ce73b-079f-4b5f-83e4-eed9a278b5c6)
 
-
+- Workflow  
+  - Data Extraction  
+    - Data was extracted from GitHub through an HTTP connection.  
+    - Azure Data Factory (ADF) was used to transfer the data to the Raw folder in Azure Data Lake Gen2.  
+  
+  - Data Transformation  
+    - A mount point was established in Databricks that connects to the Raw folder in Azure Data Lake Gen2.  
+    - Data transformations were performed in Databricks, and the processed data was stored in the Processed folder in Azure Data Lake Gen2.  
+  
+  - Data Loading & Analytics  
+    - A database was created in Azure Synapse Analytics.  
+    - Tables were generated within the Azure Synapse database.  
+    - SQL analytical scripts were executed to extract insights.  
+  
+- Technologies Used  
+  - Azure Data Factory: Utilised for data extraction and migration.  
+  - Azure Data Lake Gen2: Used for data storage.  
+  - Databricks (with PySpark): Applied for data transformation.  
+  - Azure Synapse Analytics: Utilised for data analysis and view creation.  
+  - Programming Languages: SQL, PySpark.
 
